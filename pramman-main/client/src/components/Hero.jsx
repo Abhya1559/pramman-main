@@ -30,7 +30,7 @@ export default function Hero() {
         </div>
       </div> */}
       <section className="relative bg-gradient-to-br from-gray-50 to-gray-100 py-16 px-6 md:px-20">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center ">
           {/* Left Content */}
           <div data-aos="fade-right" className="text-center md:text-left">
             <h1 className="text-5xl font-extrabold text-gray-800 leading-tight">
@@ -46,10 +46,10 @@ export default function Hero() {
             </p>
             <div className="mt-8">
               <button className="px-6 py-3 bg-orange-500 text-white text-lg font-medium rounded-lg shadow-lg hover:bg-orange-600 transition duration-300">
-                Book a Demo
+                <a href="/bookdemo"> Book a Demo</a>
               </button>
               <button className="ml-4 px-6 py-3 bg-gray-200 text-gray-700 text-lg font-medium rounded-lg shadow-lg hover:bg-gray-300 transition duration-300">
-                Learn More
+                <a href="/about">Learn More</a>
               </button>
             </div>
           </div>
@@ -70,7 +70,7 @@ export default function Hero() {
             </div>
 
             {/* Floating Badge 2 */}
-            <div className="absolute bottom-10 left-0 transform -translate-x-32 translate-y-16 hover:scale-105 transition-transform duration-500">
+            <div className="absolute bottom-10 left-0 transform -translate-x-32 translate-y-16 hover:scale-105 duration-500">
               <div className="bg-white rounded-lg p-4 shadow-lg">
                 <h3 className="text-sm font-semibold text-gray-700">
                   Verified Digital Credentials

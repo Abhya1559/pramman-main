@@ -18,7 +18,8 @@ import LogOut from "./components/dashboard/LogOut.jsx";
 import About from "./pages/About.jsx";
 import Pricing from "./pages/Pricing.jsx";
 import Helpline from "./pages/Helpline.jsx";
-
+import BookDemo from "./pages/BookDemo.jsx";
+import BlogPage from "./pages/Blog.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -84,6 +85,14 @@ const router = createBrowserRouter([
   {
     path: "/helpline",
     element: <Helpline />,
+  },
+  {
+    path: "/bookdemo",
+    element: <BookDemo />,
+  },
+  {
+    path: "/blog",
+    element: <BlogPage />,
   },
 ]);
 createRoot(document.getElementById("root")).render(

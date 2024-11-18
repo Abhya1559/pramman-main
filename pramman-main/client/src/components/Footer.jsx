@@ -5,17 +5,16 @@ const LINKS = [
   {
     title: "Product",
     items: [
-      { title: "Overview", path: "/overview" },
-      { title: "Features", path: "/features" },
-      { title: "Tutorials", path: "/tutorials" },
+      { title: "Overview", path: "/about" },
+      { title: "Features", path: "/" },
+      { title: "Tutorials", path: "/bookdemo" },
     ],
   },
   {
     title: "Company",
     items: [
       { title: "About Us", path: "/about" },
-      { title: "Careers", path: "/careers" },
-      { title: "Contact", path: "/contact" },
+      { title: "Contact", path: "/helpline" },
     ],
   },
   {
@@ -23,7 +22,7 @@ const LINKS = [
     items: [
       { title: "Blog", path: "/blog" },
       { title: "Help Center", path: "/helpline" },
-      { title: "Privacy Policy", path: "/privacy-policy" },
+      // { title: "Privacy Policy", path: "/privacy-policy" },
     ],
   },
 ];

@@ -4,7 +4,7 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="scroll-smooth bg-white px-4 py-4 shadow top-0 sticky backdrop-blur-lg backdrop-filter bg-opacity-30">
+    <nav className="scroll-smooth bg-white px-4 py-4 shadow top-0 sticky backdrop-blur-lg backdrop-filter bg-opacity-30 z-[999]">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
         <div className="text-xl font-bold text-gray-800">
@@ -44,12 +44,22 @@ export default function Navbar() {
             </a>
           </li>
           <li className="md:inline-block text-center p-2 md:p-0">
+            <a href="/about" className="hover:text-gray-500">
+              About
+            </a>
+          </li>
+          <li className="md:inline-block text-center p-2 md:p-0">
             <a href="/pricing" className="hover:text-gray-500">
               Pricing
             </a>
           </li>
           <li className="md:inline-block text-center p-2 md:p-0">
-            <a href="#" className="hover:text-gray-500">
+            <a href="/blog" className="hover:text-gray-500">
+              Blog
+            </a>
+          </li>
+          <li className="md:inline-block text-center p-2 md:p-0">
+            <a href="/bookdemo" className="hover:text-gray-500">
               Request a demo
             </a>
           </li>

@@ -56,7 +56,9 @@ export default function Dashboard(params) {
         className=" bg-white flex justify-between items-center"
       >
         <div id="heading" className="text-gray-500 p-4">
-          <h3>Pramman-patra</h3>
+          <h3>
+            <a href="/">Pramman-patra</a>
+          </h3>
         </div>
         <div
           id="setting-icons"
